@@ -277,34 +277,9 @@ module.exports = {
 - Multiple preview.
 - [You name it](https://github.com/nvh95/jest-preview/labels/feature_request).
 
-## Run jest-preview locally
+## Contributing
 
-Install dependencies
-
-```bash
-npm install
-```
-
-To see the real demo app
-
-```bash
-npm run dev
-```
-
-Run `jest` and ` jest-preview` simultaneously
-
-```bash
-npm run test
-```
-
-Open chrome at http://localhost:3336 to see the preview
-
-However, it's recommend to run `jest` and `jest-preview` separately
-
-```bash
-npm run server # Run jest-preview server
-npm run test:only # Run jest
-```
+We can't wait to see your contributions. See more at [CONTRIBUTING.md](/CONTRIBUTING.md)
 
 ## Contributors ✨
 
