@@ -9,8 +9,8 @@ function makeBundle({ filePath, dir = 'dist' }) {
       dir: dir,
       format: 'cjs',
     },
-    plugins: [typescript(), terser()],
-    external: ['path', 'camelcase'],
+    plugins: [typescript()],
+    external: ['path', 'camelcase', 'fs', 'child_process'],
   };
 }
 
