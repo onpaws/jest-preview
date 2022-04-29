@@ -169,7 +169,7 @@ ${css}
 
 const server = http.createServer(app);
 
-server.listen(port, () => {
+server.listen({ port, host: '0.0.0.0'} , () => {
   if (fs.existsSync(HTML_PATH)) {
     // Remove old preview
     const files = fs.readdirSync(CACHE_DIRECTORY);
